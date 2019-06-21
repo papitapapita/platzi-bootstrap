@@ -1,0 +1,84 @@
+
+.section img
+{
+    height: 80vh;
+    object-fit: cover;
+    filter: grayscale(40%);
+}
+
+#carousel
+{
+    position: relative;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 20;
+}
+
+.navbar-items:hover
+{
+    background-color: rgb(73, 81, 90) !important;
+    color: white !important;
+}
+
+.text-platzi
+{
+    color: #8dbd3a !important;
+}
+
+.text-platzi:hover
+{
+    color: white !important;
+    background-color: #9ed441 !important;
+    border-radius: 5px;
+}
+
+.btn-platzi
+{
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover
+{
+    background-color: #b6f845;
+    color: white;
+}
+
+.btn-platzi:active
+{
+    background-color: #6d922c;
+}
+
+.overlay .container, 
+.overlay .row
+{
+    height: 100%;
+}
+
+
+.event-description
+{
+    padding-left: 15px !important;
+    color: white;
+    box-sizing: border-box;
+}
+
+.footer
+{
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+}
+
+.footer a,
+.footer a:hover
+{
+    color: white;
+}
